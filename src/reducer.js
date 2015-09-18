@@ -10,4 +10,4 @@ export default function reducer(state = INITIAL_STATE, action) {
       return vote(state, action.entry);
   }
   return state;
-}
+  }
