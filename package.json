@@ -4,7 +4,8 @@
   "description": "Server app for the voting-react-redux-immutable tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel/register --require ./test/test_helper.js --recursive",
+    "start": "babel-node index.js",
+    "test": "mocha --compilers js:babel/register  --require ./test/test_helper.js  --recursive",
     "test:watch": "npm run test -- --watch"
   },
   "keywords": [
